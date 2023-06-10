@@ -17,7 +17,7 @@ header .navbar {
 }
 
 
-/* rushda */
+/*  */
 
 .w-100 {
     width: 100% !important;
@@ -42,6 +42,15 @@ header .navbar {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.trending-p {
+    padding: 12px 7px;
+    font-size: 23px;
+}
+
+.recent-p {
+    padding: 12px 7px;
 }
 
 
@@ -83,6 +92,7 @@ img {
     color: rgba(127, 7, 7, 0.546);
     padding: 15px;
     text-align: center;
+    font-size: 14px;
 }
 
 hr {
@@ -91,6 +101,7 @@ hr {
 
 .text-grey {
     color: grey;
+    font-size: 14px;
 }
 
 .text {
@@ -98,6 +109,12 @@ hr {
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-title {
@@ -106,6 +123,7 @@ hr {
 
 .main-heading {
     margin-top: 80px;
+    /* padding-top: 100px; */
 }
 
 #main {
@@ -120,6 +138,7 @@ hr {
 
 .green-container {
     background-color: #10cabe;
+    padding: 77px 20px;
 }
 
 .topic {
@@ -128,7 +147,7 @@ hr {
 
 .second-color {
     color: #484848;
-    ;
+    font-size: 14px;
 }
 
 .last-icon {
@@ -161,6 +180,7 @@ button {
 
 .marginspace {
     margin-bottom: 16px;
+    font-size: 14px;
 }
 
 .forspacing {
@@ -168,7 +188,8 @@ button {
 }
 
 .lines {
-    color: #484848;
+    color: #6b6868;
+    font-size: 14px;
 }
 
 .icon-style {
@@ -189,10 +210,38 @@ button {
 }
 
 .style-two {
-    padding: 20px;
+    /* padding: 20px; */
     border: #484848;
 }
 
 .style {
     padding: 20px;
+}
+
+@media only screen and (max-width: 425px) {
+    .image-container {
+        display: grid;
+    }
+    .responsive-ourcompany {
+        vertical-align: middle;
+    }
+    .row {
+        display: grid;
+    }
+    .social-network {
+        float: left;
+        display: flex;
+    }
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+    border: 1px solid #2D2D2D;
+    padding: 5px 0 0;
+    width: 32px;
+    display: inline-block;
+    text-align: center;
+    height: 32px;
+    vertical-align: baseline;
 }
