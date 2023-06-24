@@ -26,7 +26,7 @@ header .navbar {
     font-size: 5em;
 }
 
-.new-color {
+.container-color {
     background-color: #10cabe;
     padding: 0%;
     margin: 15px;
@@ -41,12 +41,12 @@ header .navbar {
     align-items: center;
 }
 
-.trending-p {
+.trending-projects {
     padding: 12px 7px;
     font-size: 23px;
 }
 
-.recent-p {
+.recent-projects {
     padding: 12px 7px;
 }
 
@@ -56,7 +56,7 @@ img {
     width: 350px;
 }
 
-.first-icon {
+.first-container {
     padding-top: 10px;
     font-size: 32px;
     color: rgb(55, 52, 52);
@@ -120,7 +120,7 @@ hr {
     font-size: 14px;
 }
 
-.last-icon {
+.bullet-icon {
     line-height: 2.5;
 }
 
@@ -162,11 +162,11 @@ button {
     font-size: 14px;
 }
 
-.icon-style {
+.style-socialmedia {
     color: #666464;
 }
 
-.icon-box {
+.socialmedia {
     background-color: black;
 }
 
@@ -179,7 +179,7 @@ button {
     text-decoration: none;
 }
 
-.style-two {
+.style-media {
     border: #484848;
 }
 
@@ -197,6 +197,28 @@ ul.social-network li {
     text-align: center;
     height: 32px;
     vertical-align: baseline;
+}
+
+.to-top {
+    background: #10cabe;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    /* opacity: 0; */
+    /* pointer-events: none; */
+    transition: all .4s;
+}
+
+.to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
 }
 
 
